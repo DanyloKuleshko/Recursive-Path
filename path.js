@@ -1,16 +1,29 @@
 //Your code below
 function buildPath (p,n){
   var path=[];
-  for(n=5; n<path.length; r++);
-  let r = math.random
-  if(n>p);
-  return true;
+  for(a=5; n<path.length; r++);
+  let r = Math.random();
+  if(r<=p){
+    path.push(false);
+  }
+  else {
+    path.push(true);
+  }
+  }
+  return path;
 }
-else if (n<=p);
-return fals;
+function stroll(path,index){
+  if (index==path.length){
+    return 1;
+  }
+  else if(index==path.length-1){
+    return 0;
+  }
+  else {
+    return stroll(path,index++);
+  }
 
-
-
+}
 //Test code
 let testpath1 = buildPath(0.10,15);
 let testpath2 = buildPath(0.50,15);
